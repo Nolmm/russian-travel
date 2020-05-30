@@ -1,0 +1,28 @@
+.place__paragraph {
+	font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.67;
+	color: #FFFFFF;
+	margin: 0 auto 24px 0;
+	padding: 0;
+	text-rendering: optimizeLegibility;
+}
+
+@media only screen and (max-width: 768px) {
+  .place__paragraph {
+		font-size: 16px;
+		line-height: 1.62;
+	}
+}
+
+@media only screen and (max-width: 335px) {
+	.place__paragraph {
+		font-size: 16px;
+		line-height: 1.62;
+		max-width: 288px;
+		max-height: 100%;
+		margin: 0 auto;
+	}
+}

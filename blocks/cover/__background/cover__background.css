@@ -1,0 +1,33 @@
+.cover__background {
+	background-color: rgba(42,44,47,.3);
+	max-width: 100%;
+	max-height: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-decoration: none;
+
+}
+.cover__background:hover {
+		opacity: 0.8;
+		transition: .3s ease;
+		background: #2A2C2F;
+	}	
+
+	@media only screen and (max-width: 1024px) {
+		.cover__background {
+			max-width: 100%;
+		}
+	}
+
+	@media only screen and (max-width: 768px) {
+		.cover__background {
+			max-width: 100%;
+		}
+	}
+
+	@media only screen and (max-width: 320px) {
+		.cover__background {
+			max-width: 100%;
+		}
+	}

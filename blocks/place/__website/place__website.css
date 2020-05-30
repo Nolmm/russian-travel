@@ -1,0 +1,15 @@
+.place__website {
+	align-self: end;
+}
+
+@media only screen and (max-width: 768px) {
+	.place__website {
+		max-width: 352px;
+	}
+}
+
+@media only screen and (max-width: 335px) {
+	.place__website {
+		display: none;
+	}
+}

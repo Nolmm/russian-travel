@@ -1,0 +1,21 @@
+.place__website_link {
+	font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration-line: underline;
+	color: #FFFFFF;
+	text-rendering: optimizeLegibility;
+}
+
+.place__website_link:hover {
+	opacity: 0.8;
+	transition: .3s ease;
+}
+
+@media only screen and (max-width: 499px) {
+	.place__website_link {
+		font-size: 10px;
+	}
+}
