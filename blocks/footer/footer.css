@@ -1,13 +1,15 @@
-@import url(../footer/__link/footer__link.css);
-@import url(../footer/__links/footer__links.css);
-@import url(../footer/__list/footer__list.css);
-@import url(../footer/__copyright/footer__copyright.css);
+@import url(./__link/footer__link.css);
+@import url(./__links/footer__links.css);
+@import url(./__list/footer__list.css);
+@import url(./__copyright/footer__copyright.css);
 
 .footer {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding-bottom: 24px;
+	margin: 0 auto;
+	max-width: 1184px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -21,7 +23,6 @@
 		max-width: 720px;
 		padding-bottom: 24px;
 		box-sizing: border-box;
-		margin: 0;
 	}
 }
 
@@ -30,6 +31,7 @@
 		max-width: 92%;
 		padding-bottom: 24px;
 		flex-direction: column;
+		margin: 0;
 	}
 }
 
@@ -38,5 +40,6 @@
 		width: 186px;
 		padding-bottom: 24px;
 		flex-direction: column;
+		margin: 0;
 	}
 }

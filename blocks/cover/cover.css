@@ -1,6 +1,6 @@
-@import url(../cover/__title/cover__title.css);
-@import url(../cover/__subtitle/cover__subtitle.css);
-@import url(../cover/__background/cover__background.css);
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+@import url(./__background/cover__background.css);
 
 .cover {
 	display: flex;
@@ -13,6 +13,8 @@
 	max-width: 1184px;
 	max-height: 740px;
 	background-position: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @media only screen and (max-width: 1024px) {

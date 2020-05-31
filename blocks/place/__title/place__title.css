@@ -2,7 +2,7 @@
 	font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
-  font-size: 7vw;
+  font-size: 5.625vw;
   line-height: 1.06;
   margin: 0;
   align-self: end;
@@ -28,6 +28,8 @@
   .place__title {
 		font-size: 29px;
 		line-height: 1;
+		max-width: 288px;
+		margin-left: 16px;
 	}
 }
 
@@ -35,5 +37,7 @@
 	.place__title {
 		font-size: 32px;
 		line-height: 1.09;
+		max-width: 288px;
+		margin-left: 16px;
 	}
 }
