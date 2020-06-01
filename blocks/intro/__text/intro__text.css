@@ -1,10 +1,8 @@
 .intro__text {
-  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.62;
-	color: #FFFFFF;
+	color: rgb(255, 255, 255);
 	margin-bottom: 32px;
-	text-rendering: optimizeLegibility;
 }

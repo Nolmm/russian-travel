@@ -1,5 +1,4 @@
 .lead__caption {
-	font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -7,7 +6,6 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   align-self: flex-start;
-	color: #FFFFFF;
+	color: rgb(255, 255, 255);
 	text-align: left;
-	text-rendering: optimizeLegibility;
 }

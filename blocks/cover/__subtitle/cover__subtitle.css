@@ -1,15 +1,13 @@
 .cover__subtitle {
-	font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
-	color: #FFFFFF;
+	color: rgb(255, 255, 255);
 	margin-left: 412px;
 	margin-right: 412px;
 	margin-bottom: 245px;
-	text-rendering: optimizeLegibility;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -17,7 +15,6 @@
 		margin-left: 332px;
 		margin-right: 332px;
 		margin-bottom: 195px;
-		text-align: center;
 	}
 }
 
@@ -26,7 +23,6 @@
 		margin-left: 204px;
 		margin-right: 204px;
 		margin-bottom: 115px;
-		text-align: center;
 		font-size: 2.4vw;
 	}
 }
@@ -38,6 +34,5 @@
 		margin-left: 16px;
 		margin-right: 16px;
 		margin-bottom: 33px;
-		text-align: center;
 	}
 }

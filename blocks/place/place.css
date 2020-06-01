@@ -1,7 +1,7 @@
 @import url(./__title/place__title.css);
 @import url(./__website/place__website.css);
-@import url(./__website/place__website_url-heading.css);
-@import url(./__website/place__website_link.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__link/place__link.css);
 @import url(./__image/place__image.css);
 @import url(./__paragraphs/place__paragraphs.css);
 @import url(./__paragraph/place__paragraph.css);
@@ -33,13 +33,9 @@
 		max-width: 720px;
 		grid-column-gap: 28px;
 		grid-template-columns: 48% 1fr;
-		margin-left: 0;
-		margin-right: 0;
 		margin-bottom: 72px;
 	}
 }
-
-
 
 @media only screen and (max-width: 335px) {
 	.place {

@@ -1,17 +1,15 @@
 .lead__subtitle {
-	font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
   line-height: 1.2;
   text-align: center;
-	color: #FFFFFF;
+	color: rgb(255, 255, 255);
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 32px;
 	margin-bottom: 64px;
 	max-width: 640px;
-	text-rendering: optimizeLegibility;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -23,7 +21,6 @@
 @media only screen and (max-width: 768px) {
 	.lead__subtitle {
 		font-size: 4vw;
-		line-height: 1.2;
 	}
 }
 
