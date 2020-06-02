@@ -13,9 +13,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	margin: 0 auto;
-	font-family: 'Inter', 'Arial', sans-serif;
   color: rgb(255, 255, 255);
-  text-rendering: optimizeLegibility;
 }
 
 @media only screen and (max-width: 768px) {

@@ -1,13 +1,12 @@
 .cover__subtitle {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
-  text-align: center;
 	color: rgb(255, 255, 255);
 	margin-left: 412px;
 	margin-right: 412px;
 	margin-bottom: 245px;
+	width: 30.4%;
+	max-width: 360px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -15,6 +14,7 @@
 		margin-left: 332px;
 		margin-right: 332px;
 		margin-bottom: 195px;
+		width: 35.1%;
 	}
 }
 
@@ -24,6 +24,7 @@
 		margin-right: 204px;
 		margin-bottom: 115px;
 		font-size: 2.4vw;
+		width: 46.8%;
 	}
 }
 
@@ -34,5 +35,7 @@
 		margin-left: 16px;
 		margin-right: 16px;
 		margin-bottom: 33px;
+		max-width: 288px;
+		width: 90%;
 	}
 }

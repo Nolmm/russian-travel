@@ -1,11 +1,8 @@
 .place__link {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 1.22;
   text-decoration-line: underline;
 	color: rgb(255, 255, 255);
-	text-rendering: optimizeLegibility;
 	transition: .3s ease;
 }
 

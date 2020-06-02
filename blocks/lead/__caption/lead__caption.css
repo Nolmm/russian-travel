@@ -1,6 +1,4 @@
 .lead__caption {
-  font-style: normal;
-  font-weight: normal;
   font-size: 10px;
   line-height: 1.4;
   letter-spacing: 0.15em;
@@ -8,4 +6,16 @@
   align-self: flex-start;
 	color: rgb(255, 255, 255);
 	text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+	.lead__caption {
+		margin-left: 24px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.lead__caption {
+		margin-left: 16px;
+	}
 }
